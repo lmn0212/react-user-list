@@ -1,0 +1,52 @@
+h1 {
+  letter-spacing: 1.5px;
+  margin: 2rem;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  display: -webkit-flex;
+	display: flex;
+}
+.user-list  {
+	-webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.user-list li {
+  width: 40%;
+  text-align: left;
+  padding: 10px;
+}
+
+.user-list li:nth-child(2n) {
+  background-color: #eef7f7;
+}
+.pages {
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.pagination {
+  width: 40%;
+  margin: 10px auto 0;
+  padding: 0;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.pagination li {
+  padding: 10px;
+  background-color: rgb(157 198 199 / 80%);
+}
+.pagination li:not(:last-child) {
+  margin-right: 3px;
+}
+.pagination li a {
+  color: white;
+}
